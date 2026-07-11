@@ -37,35 +37,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ---------- Sidebar ----------
-with st.sidebar:
-
-    selected = option_menu(
-        "FinSight AI",
-        [
-            "Home",
-            "Dashboard",
-            "Expense Manager",
-            "Income Manager",
-            "Analytics",
-            "AI Assistant",
-            "Forecast",
-            "Reports",
-            "Settings"
-        ],
-        icons=[
-            "house",
-            "bar-chart",
-            "wallet2",
-            "cash-stack",
-            "graph-up",
-            "robot",
-            "calendar",
-            "file-earmark",
-            "gear"
-        ],
-        default_index=0
-    )
 
 # ---------- Home ----------
 st.markdown(
