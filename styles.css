@@ -1,0 +1,255 @@
+/* ==============================
+   FinSight AI Premium Theme
+============================== */
+
+.block-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+/* Background */
+
+.stApp{
+
+    background:linear-gradient(
+        135deg,
+        #0F172A,
+        #1E293B,
+        #111827
+    );
+
+    color:white;
+
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+
+    background:#111827;
+
+    border-right:1px solid #334155;
+
+}
+
+/* Sidebar Text */
+
+section[data-testid="stSidebar"] *{
+
+    color:white;
+
+}
+
+/* Headers */
+
+h1{
+
+    color:#38BDF8;
+
+    font-weight:700;
+
+}
+
+h2{
+
+    color:white;
+
+}
+
+h3{
+
+    color:#F8FAFC;
+
+}
+
+h4{
+
+    color:#CBD5E1;
+
+}
+
+/* Metric Cards */
+
+div[data-testid="metric-container"]{
+
+    background:#1E293B;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    border:1px solid #334155;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+    transition:.3s;
+
+}
+
+div[data-testid="metric-container"]:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#38BDF8;
+
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:12px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    background:linear-gradient(
+        90deg,
+        #2563EB,
+        #06B6D4
+    );
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    transform:scale(1.02);
+
+    background:linear-gradient(
+        90deg,
+        #1D4ED8,
+        #0891B2
+    );
+
+}
+
+/* DataFrames */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    border:1px solid #334155;
+
+}
+
+/* Selectbox */
+
+.stSelectbox{
+
+    border-radius:10px;
+
+}
+
+/* Text Inputs */
+
+.stTextInput input{
+
+    border-radius:10px;
+
+}
+
+.stTextArea textarea{
+
+    border-radius:10px;
+
+}
+
+.stNumberInput input{
+
+    border-radius:10px;
+
+}
+
+/* Divider */
+
+hr{
+
+    border:1px solid #334155;
+
+}
+
+/* Info Box */
+
+.stAlert{
+
+    border-radius:15px;
+
+}
+
+/* Tabs */
+
+button[data-baseweb="tab"]{
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+/* Progress */
+
+.stProgress>div>div{
+
+    background:#38BDF8;
+
+}
+
+/* Footer */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+/* Hide Streamlit Menu */
+
+#MainMenu{
+
+    visibility:hidden;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563EB;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0F172A;
+
+}
